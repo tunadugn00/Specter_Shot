@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Enemy
+  - Energy
+  - Explosion
+  - EnemyBullet
+  - Chest
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Ground
+    uniqueID: 2101502175
+    locked: 0
+  - name: Grass
+    uniqueID: 2953712889
+    locked: 0
+  - name: Wall
+    uniqueID: 826720037
+    locked: 0
+  - name: Building
+    uniqueID: 3347710733
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 3037275821
+    locked: 0
+  - name: Gun
+    uniqueID: 910895127
+    locked: 0
+  - name: Blood
+    uniqueID: 4267134483
+    locked: 0
+  - name: Enemy
+    uniqueID: 3552430247
+    locked: 0
+  - name: Tree
+    uniqueID: 1730216203
+    locked: 0
+  - name: HealthBar
+    uniqueID: 670050815
+    locked: 0
+  - name: Energy
+    uniqueID: 763140755
+    locked: 0
+  - name: Explosion
+    uniqueID: 1868593273
+    locked: 0
+  m_RenderingLayers:
+  - Default
