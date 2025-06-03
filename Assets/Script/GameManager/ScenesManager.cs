@@ -3,9 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class ScenesManager : MonoBehaviour
 {
+    public void LoadSceneWithLoading(string sceneName)
+    {
+        PlayerPrefs.SetString("NextScene", sceneName);
+        SceneManager.LoadScene("LoadingScene");
+    }
     public void MainMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        LoadSceneWithLoading("MainMenu");
     }
 
     public void LevelMenu()
@@ -14,12 +19,12 @@ public class ScenesManager : MonoBehaviour
     }
     public void GoToLevel(string levelName)
     {
-        SceneManager.LoadScene(levelName);
+        LoadSceneWithLoading(levelName);
     }
     public void RestartGame()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        LoadSceneWithLoading(SceneManager.GetActiveScene().name);
     }
 
     public void PersonalMenu()
