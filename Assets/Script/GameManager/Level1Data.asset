@@ -34,7 +34,7 @@ MonoBehaviour:
       spawnCount: 30
     timeBetweenSpawns: 2
     waveDuration: 45
-    allowedItemTiers: 00000000
+    allowedItemTiers: 0000000001000000
   - enemiesInWave:
     - enemyPrefab: {fileID: 860384458534402406, guid: 32ba92d90be38504b9ad51e8488517d7, type: 3}
       spawnCount: 20
@@ -44,7 +44,7 @@ MonoBehaviour:
       spawnCount: 5
     timeBetweenSpawns: 1.5
     waveDuration: 45
-    allowedItemTiers: 
+    allowedItemTiers: 0200000001000000
   - enemiesInWave:
     - enemyPrefab: {fileID: 860384458534402406, guid: 32ba92d90be38504b9ad51e8488517d7, type: 3}
       spawnCount: 10
@@ -54,4 +54,4 @@ MonoBehaviour:
       spawnCount: 15
     timeBetweenSpawns: 1
     waveDuration: 60
-    allowedItemTiers: 
+    allowedItemTiers: 02000000

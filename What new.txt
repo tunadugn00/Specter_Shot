@@ -1,0 +1,36 @@
+
+- Menu
+	+ Main ✅
+	+ Choose Level ✅
+	+ Setting 
+	+ Shopping
+		- Buy Characters
+		- Buy Guns
+	+ Personal
+		- Choose Characters
+		- Choose Guns
+	+ Pause ✅
+	+ Game Over ✅
+	+ Shop Upgrade ✅
+	+ Save data game
+	
+- Audio
+- Gameplay✅
+	+ Spawn Enemy ✅
+	+ Boss ✅
+	+ Shop✅
+	+ Item Tier ✅
+	+ Buy Items✅
+	+ Roll Item ✅
+	+ Upgrade stat ✅
+	+ Disciple
+
+Today:
+-> add items ✅
+-> items tier ✅
+-> add buff from items✅
+-> regen HP when new wave ✅
+-> suck energy near ✅
+-> delay spawn enemy ✅
+-> firerate, knockback✅
+-> eror spawn

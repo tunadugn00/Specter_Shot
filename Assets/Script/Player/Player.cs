@@ -69,7 +69,7 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(float damage, Vector2 attackerPos)
     {
-        if (Time.time - lastDamageTime < damageCooldown) return;
+        if (isInvincible | Time.time - lastDamageTime < damageCooldown) return;
 
         float armor = stats.armor;
         float damageReduction = 100f/(100f + armor);

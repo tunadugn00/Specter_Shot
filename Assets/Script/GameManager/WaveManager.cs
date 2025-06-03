@@ -26,11 +26,11 @@ public class WaveManager : MonoBehaviour
 
             UpdateWaveTimerUI();
 
-            if(currentWaveTime <= 0f)
+            if (currentWaveTime <= 0f)
             {
                 EndCurrentWave();
             }
-        }   
+        }
     }
 
     private void EndCurrentWave()
@@ -47,7 +47,7 @@ public class WaveManager : MonoBehaviour
     private void DestroyAllEnemiesAndEnergy()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
-        foreach(GameObject enemy in enemies)
+        foreach (GameObject enemy in enemies)
         {
             Destroy(enemy);
         }
