@@ -3,6 +3,8 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Data/Character")]
 public class CharacterData : ScriptableObject
 {
+    public string id;
+    public int price;
     public string characterName;
     public Sprite icon;
 
