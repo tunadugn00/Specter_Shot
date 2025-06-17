@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c336c9f32f364a44caba090d49d93242, type: 3}
+  m_Name: MaskDude
+  m_EditorClassIdentifier: 
+  id: maskdude
+  price: 0
+  characterName: Mask Dude
+  icon: {fileID: 1098520366, guid: a4efcba8f09f4714e87554189a93ad4f, type: 3}
+  prefab: {fileID: 0}
+  baseHP: 15
+  baseSpeed: 5
+  armor: 5
+  regenHP: 55
+  critRate: 5
+  critDamage: 5
+  lifeSteal: 5

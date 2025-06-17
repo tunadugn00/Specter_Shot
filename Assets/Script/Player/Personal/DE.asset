@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a58cd748e87c5854896ba35c1e968d5a, type: 3}
   m_Name: DE
   m_EditorClassIdentifier: 
+  id: de
+  price: 0
   gunName: DE
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 6584674ebda2b914588b0932113585a8, type: 3}
+  prefab: {fileID: 6121635630461653157, guid: 80858bb0c393f1e479f610bfb3de9901, type: 3}
   baseDamage: 10
   fireRate: 5
   projectileSpeed: 10

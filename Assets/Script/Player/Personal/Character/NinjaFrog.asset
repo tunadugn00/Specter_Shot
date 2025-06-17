@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c336c9f32f364a44caba090d49d93242, type: 3}
-  m_Name: Lmao
+  m_Name: NinjaFrog
   m_EditorClassIdentifier: 
-  id: lmao
-  price: 100
-  characterName: Lmao
-  icon: {fileID: 0}
-  baseHP: 20
+  id: ninjafrog
+  price: 0
+  characterName: Ninja Frog
+  icon: {fileID: 518758315, guid: 26a4fba791b130841b3bed5f0be48b34, type: 3}
+  prefab: {fileID: 0}
+  baseHP: 15
   baseSpeed: 5
-  armor: 2
-  regenHP: 0
-  critRate: 0.05
-  critDamage: 1.5
-  lifeSteal: 1
+  armor: 5
+  regenHP: 5
+  critRate: 5
+  critDamage: 5
+  lifeSteal: 5

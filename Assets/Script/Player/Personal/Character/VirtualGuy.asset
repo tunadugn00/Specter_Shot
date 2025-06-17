@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c336c9f32f364a44caba090d49d93242, type: 3}
-  m_Name: Alex
+  m_Name: VirtualGuy
   m_EditorClassIdentifier: 
-  id: lmao
+  id: virtualguy
   price: 0
-  characterName: Alex
+  characterName: Virtual Guy
   icon: {fileID: -6367560908665664636, guid: e3c962ec2e45c3c4e8935b7e771e938a, type: 3}
+  prefab: {fileID: 4883781306168443462, guid: 1b81aa23283c09f4bbd64180df1dbb7c, type: 3}
   baseHP: 15
   baseSpeed: 5
   armor: 10
