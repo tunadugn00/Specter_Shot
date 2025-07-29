@@ -11,6 +11,10 @@ public class Gun : MonoBehaviour
     private float nextFireTime;
     private Enemy[] enemies;
 
+    public AudioClip shootClip;
+    private float shootSFXCooldown = 0.1f;
+    private float lastShootSFXTime;
+
     private void Start()
     {
         if (gunData != null)
@@ -48,7 +52,15 @@ public class Gun : MonoBehaviour
         {
             FireProjectile(nearestEnemy);
             nextFireTime = Time.time + (1f / PlayerStats.Instance.fireRate);
+
+            if (Time.time - lastShootSFXTime > shootSFXCooldown)
+            {
+                AudioManager.Instance.PlaySFX(shootClip);
+                lastShootSFXTime = Time.time;
+            }
         }
+       
+
     }
 
     Enemy GetNearestEnemy()

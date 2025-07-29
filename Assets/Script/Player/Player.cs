@@ -23,7 +23,8 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
-   
+    public AudioClip playerHitClip;
+
 
     private void Awake()
     {
@@ -90,8 +91,11 @@ public class Player : MonoBehaviour
         {
             StartCoroutine(InvincibilityCoroutine());
         }
+        AudioManager.Instance.PlaySFX(playerHitClip);
+
+
     }
-     private IEnumerator InvincibilityCoroutine()
+    private IEnumerator InvincibilityCoroutine()
     {
         isInvincible = true;
         for(int i = 0; i< flashCount; i++)

@@ -18,6 +18,6 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 6584674ebda2b914588b0932113585a8, type: 3}
   prefab: {fileID: 6121635630461653157, guid: 80858bb0c393f1e479f610bfb3de9901, type: 3}
   baseDamage: 10
-  fireRate: 5
+  fireRate: 1
   projectileSpeed: 10
   attackRange: 8

@@ -20,12 +20,18 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject joyStick;
 
+    [Header("Audio")]
+    public AudioClip gameplayMusic;
+
     private void Awake()
     {
         Instance = this;
     }
     private void Start()
     {
+        if (gameplayMusic != null)
+            AudioManager.Instance.PlayMusic(gameplayMusic);
+
         SetState(currentState);
     }
     public  void SetState(GameState newState)

@@ -141,6 +141,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -509,7 +522,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boar_Idle_0: 5955512598667797552
+      Boar_Idle_1: 3644317419517918800
+      Boar_Idle_10: -3881825542648012960
+      Boar_Idle_11: -2244307115380839286
+      Boar_Idle_12: 6047338998230670073
+      Boar_Idle_13: 3822047594945622752
+      Boar_Idle_14: -6736487261856993544
+      Boar_Idle_15: -8313715147586249031
+      Boar_Idle_2: -6716529477924752169
+      Boar_Idle_3: 4964505401379661932
+      Boar_Idle_4: 1844269885584623048
+      Boar_Idle_5: -1668480024893296167
+      Boar_Idle_6: 2488925728810677199
+      Boar_Idle_7: 2603776168142242401
+      Boar_Idle_8: 1258350448821294484
+      Boar_Idle_9: 1056143397719570597
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

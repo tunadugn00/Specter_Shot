@@ -165,6 +165,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -709,7 +722,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boar_Attack_0: -4559317933015468563
+      Boar_Attack_1: 659695328033275028
+      Boar_Attack_10: -1137874323321135843
+      Boar_Attack_11: 8137084207499065286
+      Boar_Attack_12: 4778090000738602849
+      Boar_Attack_13: 3556827762047743469
+      Boar_Attack_14: 743333897726822838
+      Boar_Attack_15: -1525987020513609875
+      Boar_Attack_16: -5113876756087209901
+      Boar_Attack_17: -9179016701877230299
+      Boar_Attack_18: 8605041404380656845
+      Boar_Attack_19: 984244670458739721
+      Boar_Attack_2: 8167804980246587320
+      Boar_Attack_20: -6546703863325921095
+      Boar_Attack_21: 6959584034561916407
+      Boar_Attack_22: -7039694728572342735
+      Boar_Attack_23: 8621706290542043284
+      Boar_Attack_3: -8205144138561840714
+      Boar_Attack_4: 5158058078945373520
+      Boar_Attack_5: 9210610814799423226
+      Boar_Attack_6: 7786387305834744587
+      Boar_Attack_7: 6625127052754631292
+      Boar_Attack_8: 8589989997280748764
+      Boar_Attack_9: 7491192747930928221
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
