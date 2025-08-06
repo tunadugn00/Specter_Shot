@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 8d1b05d18d491a54fb0874ab2eb4f294, type: 3}
   itemName: Armor
-  description: +1
-  price: 3
+  description: +3
+  price: 9
   statToUpgrade: armor
-  upgradeAmount: 1
+  upgradeAmount: 3
   itemTier: 1

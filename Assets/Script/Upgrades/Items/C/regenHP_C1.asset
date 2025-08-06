@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 77ee594cbc06bcd49b41ab48c58c314d, type: 3}
   itemName: Regen HP
-  description: + 1/s aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  description: + 1/s
   price: 8
   statToUpgrade: regenHP
   upgradeAmount: 1

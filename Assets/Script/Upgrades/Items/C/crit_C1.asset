@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 57ae8b366e0762744b96286b1d2394ef, type: 3}
   itemName: Critical Rate
-  description: + 2%
-  price: 6
+  description: + 10%
+  price: 16
   statToUpgrade: critRate
-  upgradeAmount: 2
+  upgradeAmount: 0.1
   itemTier: 1

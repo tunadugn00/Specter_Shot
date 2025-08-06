@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: ea4b5930b67e82844883852e2ff1132b, type: 3}
   itemName: Critical Damage
-  description: + 8%
-  price: 8
+  description: + 10%
+  price: 19
   statToUpgrade: critDamage
-  upgradeAmount: 8
+  upgradeAmount: 0.1
   itemTier: 1

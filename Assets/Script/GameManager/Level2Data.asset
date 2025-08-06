@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948010cdee53e5c44a25a66020320837, type: 3}
+  m_Name: Level2Data
+  m_EditorClassIdentifier: 
+  waves:
+  - enemiesInWave:
+    - enemyPrefab: {fileID: 448890763726063669, guid: f6fbc379e75e34a44992425de81b9cd5, type: 3}
+      spawnCount: 15
+    timeBetweenSpawns: 2
+    waveDuration: 30
+    allowedItemTiers: 00000000
+  - enemiesInWave:
+    - enemyPrefab: {fileID: 860384458534402406, guid: 32ba92d90be38504b9ad51e8488517d7, type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 4870627242699849937, guid: 263aa98e80171fe44a010ad36f9fe5a6, type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 448890763726063669, guid: f6fbc379e75e34a44992425de81b9cd5, type: 3}
+      spawnCount: 10
+    timeBetweenSpawns: 2
+    waveDuration: 30
+    allowedItemTiers: 0000000001000000
+  - enemiesInWave:
+    - enemyPrefab: {fileID: 860384458534402406, guid: 32ba92d90be38504b9ad51e8488517d7, type: 3}
+      spawnCount: 20
+    - enemyPrefab: {fileID: 4870627242699849937, guid: 263aa98e80171fe44a010ad36f9fe5a6, type: 3}
+      spawnCount: 20
+    - enemyPrefab: {fileID: 448890763726063669, guid: f6fbc379e75e34a44992425de81b9cd5, type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1852423281831942750, guid: aa1cb503bec7c4b4eb1c849806af2e9a, type: 3}
+      spawnCount: 3
+    timeBetweenSpawns: 2
+    waveDuration: 30
+    allowedItemTiers: 000000000100000002000000
+  - enemiesInWave:
+    - enemyPrefab: {fileID: 860384458534402406, guid: 32ba92d90be38504b9ad51e8488517d7, type: 3}
+      spawnCount: 20
+    - enemyPrefab: {fileID: 4870627242699849937, guid: 263aa98e80171fe44a010ad36f9fe5a6, type: 3}
+      spawnCount: 30
+    - enemyPrefab: {fileID: 1852423281831942750, guid: aa1cb503bec7c4b4eb1c849806af2e9a, type: 3}
+      spawnCount: 5
+    - enemyPrefab: {fileID: 448890763726063669, guid: f6fbc379e75e34a44992425de81b9cd5, type: 3}
+      spawnCount: 5
+    timeBetweenSpawns: 1.5
+    waveDuration: 30
+    allowedItemTiers: 0200000001000000
+  - enemiesInWave:
+    - enemyPrefab: {fileID: 448890763726063669, guid: f6fbc379e75e34a44992425de81b9cd5, type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1852423281831942750, guid: aa1cb503bec7c4b4eb1c849806af2e9a, type: 3}
+      spawnCount: 5
+    - enemyPrefab: {fileID: 1326421692009467880, guid: 0bd358c60bd34c348b5111b29dd66cac, type: 3}
+      spawnCount: 1
+    timeBetweenSpawns: 1
+    waveDuration: 999
+    allowedItemTiers: 0300000002000000

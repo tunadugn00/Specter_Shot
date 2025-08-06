@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 2d38187db1479384d9428026dcf22c38, type: 3}
   itemName: Damage
-  description: + 2
-  price: 6
+  description: + 4
+  price: 12
   statToUpgrade: damage
-  upgradeAmount: 2
+  upgradeAmount: 4
   itemTier: 1

@@ -17,5 +17,5 @@ MonoBehaviour:
   description: + 8%
   price: 8
   statToUpgrade: critDamage
-  upgradeAmount: 8
+  upgradeAmount: 0.08
   itemTier: 0

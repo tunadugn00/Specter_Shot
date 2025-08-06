@@ -4,6 +4,7 @@ public class PlayerCollision : MonoBehaviour
 {
     public PlayerStats playerStats;
     public AudioClip pickupClip;
+    public GameObject levelCompleteUI;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -11,6 +12,11 @@ public class PlayerCollision : MonoBehaviour
         {
             Debug.Log("VICTORY");
             Destroy(collision.gameObject);
+            if (levelCompleteUI != null)
+            {
+                levelCompleteUI.SetActive(true);
+                Time.timeScale = 0f;
+            }
         }
 
         if (collision.CompareTag("Energy"))

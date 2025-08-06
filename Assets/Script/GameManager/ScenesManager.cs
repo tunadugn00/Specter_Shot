@@ -5,6 +5,7 @@ public class ScenesManager : MonoBehaviour
 {
     public void LoadSceneWithLoading(string sceneName)
     {
+        Time.timeScale = 1f;
         PlayerPrefs.SetString("NextScene", sceneName);
         SceneManager.LoadScene("LoadingScene");
     }
@@ -15,7 +16,7 @@ public class ScenesManager : MonoBehaviour
 
     public void LevelMenu()
     {
-        SceneManager.LoadScene("LevelMenu");
+        LoadSceneWithLoading("LevelMenu");
     }
     public void GoToLevel(string levelName)
     {

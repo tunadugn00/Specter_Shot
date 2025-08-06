@@ -10,19 +10,10 @@ public class PlayerLoader : MonoBehaviour
     {
         Debug.Log("=== PLAYER LOADER START ===");
 
-        // Đọc PlayerPrefs
+
         string charId = PlayerPrefs.GetString("selected_character", "Alex");
         string gunId = PlayerPrefs.GetString("selected_gun", allGuns.Length > 0 ? allGuns[0].id : "");
 
-        Debug.Log($"PlayerPrefs - Character ID: '{charId}'");
-        Debug.Log($"PlayerPrefs - Gun ID: '{gunId}'");
-
-        // Debug tất cả characters available
-        Debug.Log("Available characters:");
-        for (int i = 0; i < allCharacters.Length; i++)
-        {
-            Debug.Log($"  [{i}] ID: '{allCharacters[i].id}' Name: '{allCharacters[i].name}'");
-        }
 
         // Tìm character data
         CharacterData charData = null;

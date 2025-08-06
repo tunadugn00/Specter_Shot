@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 462690f82e5d8d64d9195ac0be65f8b1, type: 3}
-  m_Name: lifeSteal_D2
+  m_Name: critDMG_C1
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: a906244475ec56842be3695d9c6a8ae3, type: 3}
-  itemName: Life Steal
-  description: + 3%
-  price: 24
-  statToUpgrade: lifeSteal
-  upgradeAmount: 3
-  itemTier: 0
+  icon: {fileID: 21300000, guid: b1e87e14bb0a08a41a9db1b288eb3522, type: 3}
+  itemName: Critical Damage
+  description: + 18%
+  price: 19
+  statToUpgrade: critDamage
+  upgradeAmount: 0.18
+  itemTier: 2

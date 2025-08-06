@@ -200,12 +200,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0763121be324dd24ea21aa828c3c0ccc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: 0
-  maxHP: 50
+  enemySpeed: 3
+  maxHP: 500
   enterDMG: 5
   stayDMG: 0.2
   damageDelay: 0.5
+  knockbackCooldown: 2
+  knockbackDuration: 0.2
   hpBar: {fileID: 1348449410744722341}
+  energyObject: {fileID: 0}
   bulletPrefabs: {fileID: 3887959805577981347, guid: 6767348a934d87747b6819e6fcde44e1, type: 3}
   firePoint: {fileID: 1622793402313552445}
   speedBullet: 10

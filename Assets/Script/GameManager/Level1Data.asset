@@ -17,7 +17,7 @@ MonoBehaviour:
     - enemyPrefab: {fileID: 860384458534402406, guid: 32ba92d90be38504b9ad51e8488517d7, type: 3}
       spawnCount: 15
     timeBetweenSpawns: 2
-    waveDuration: 10
+    waveDuration: 30
     allowedItemTiers: 00000000
   - enemiesInWave:
     - enemyPrefab: {fileID: 860384458534402406, guid: 32ba92d90be38504b9ad51e8488517d7, type: 3}
@@ -33,8 +33,8 @@ MonoBehaviour:
     - enemyPrefab: {fileID: 4870627242699849937, guid: 263aa98e80171fe44a010ad36f9fe5a6, type: 3}
       spawnCount: 30
     timeBetweenSpawns: 2
-    waveDuration: 45
-    allowedItemTiers: 0000000001000000
+    waveDuration: 30
+    allowedItemTiers: 000000000100000002000000
   - enemiesInWave:
     - enemyPrefab: {fileID: 860384458534402406, guid: 32ba92d90be38504b9ad51e8488517d7, type: 3}
       spawnCount: 20
@@ -43,15 +43,11 @@ MonoBehaviour:
     - enemyPrefab: {fileID: 1852423281831942750, guid: aa1cb503bec7c4b4eb1c849806af2e9a, type: 3}
       spawnCount: 5
     timeBetweenSpawns: 1.5
-    waveDuration: 45
+    waveDuration: 30
     allowedItemTiers: 0200000001000000
   - enemiesInWave:
-    - enemyPrefab: {fileID: 860384458534402406, guid: 32ba92d90be38504b9ad51e8488517d7, type: 3}
-      spawnCount: 10
-    - enemyPrefab: {fileID: 4870627242699849937, guid: 263aa98e80171fe44a010ad36f9fe5a6, type: 3}
-      spawnCount: 10
-    - enemyPrefab: {fileID: 1852423281831942750, guid: aa1cb503bec7c4b4eb1c849806af2e9a, type: 3}
-      spawnCount: 15
+    - enemyPrefab: {fileID: 1326421692009467880, guid: 0bd358c60bd34c348b5111b29dd66cac, type: 3}
+      spawnCount: 1
     timeBetweenSpawns: 1
-    waveDuration: 60
-    allowedItemTiers: 02000000
+    waveDuration: 999
+    allowedItemTiers: 0300000002000000

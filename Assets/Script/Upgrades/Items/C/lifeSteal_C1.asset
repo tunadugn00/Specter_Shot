@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: e057e2532b20a6d45aa336e163d422e1, type: 3}
   itemName: Life Steal
-  description: + 1%
+  description: + 2%
   price: 8
   statToUpgrade: lifeSteal
-  upgradeAmount: 1
+  upgradeAmount: 0.2
   itemTier: 1

@@ -15,7 +15,7 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 35086acac8669a0429e90df6c4206f8e, type: 3}
   itemName: HP
   description: + 3
-  price: 6
+  price: 14
   statToUpgrade: maxHP
-  upgradeAmount: 3
+  upgradeAmount: 5
   itemTier: 1

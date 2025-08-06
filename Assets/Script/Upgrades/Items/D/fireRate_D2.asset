@@ -17,5 +17,5 @@ MonoBehaviour:
   description: + 10%
   price: 20
   statToUpgrade: fireRate
-  upgradeAmount: -0.1
+  upgradeAmount: 0.1
   itemTier: 0

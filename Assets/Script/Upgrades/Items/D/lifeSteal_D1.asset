@@ -17,5 +17,5 @@ MonoBehaviour:
   description: + 1%
   price: 8
   statToUpgrade: lifeSteal
-  upgradeAmount: 1
+  upgradeAmount: 0.1
   itemTier: 0

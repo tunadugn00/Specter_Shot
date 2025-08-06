@@ -17,5 +17,5 @@ MonoBehaviour:
   description: + 2
   price: 26
   statToUpgrade: moveSpeed
-  upgradeAmount: 2
+  upgradeAmount: 0.2
   itemTier: 0

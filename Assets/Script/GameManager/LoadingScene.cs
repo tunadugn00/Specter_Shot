@@ -25,7 +25,7 @@ public class LoadingScene : MonoBehaviour
     IEnumerator LoadSceneAsync (string sceneName)
     {
         loadingPanel.SetActive(true);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSecondsRealtime(0.5f);
 
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName);
         operation.allowSceneActivation = false;
@@ -41,7 +41,7 @@ public class LoadingScene : MonoBehaviour
             {
                 Instantiate(bulletPrefabs, bulletContainer);
                 bulletsSpawned++;
-                yield return new WaitForSeconds(0.02f);
+                yield return new WaitForSecondsRealtime(0.02f);
             }
 
             if (operation.progress >= 0.9f && bulletsSpawned >= totalBullets)
